@@ -25,13 +25,5 @@ public class Data {
     public void imprimir3(){
         System.out.printf("%02d %d\n",dia,ano);
     }
-    public static void main(String[] args){
-        Data data1= new Data(1,"Janeiro",2020);
-        Data data2= new Data(1,1,2020);
-        data2.imprimir1();
-        data1.imprimir2();
-        data1.imprimir3();
-        data2.imprimir3();
-        
-    }
+
 }
